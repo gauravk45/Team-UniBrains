@@ -1,0 +1,144 @@
+.cart-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #f0f0f0;
+}
+
+.cart-total {
+  height: 49vh;
+  border-radius: 10px;
+  flex-shrink: 0;
+  margin-bottom: 80px;
+  width: 300px;
+  background-color: white;
+  padding: 10px;
+  border-left: 1px solid #ddd;
+  position: fixed;
+  top: 0;
+  margin-right: 15px;
+  bottom: 0;
+  margin-top: 100px;
+  right: 0;
+  border: 4px 6px rgb(0, 0, 0, 0.5);
+}
+
+.cart-total h3 {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.cart-total h4 {
+  display: flex;
+  padding-bottom: 65px;
+  margin-left: 10px;
+}
+.cart-total h2 {
+  margin-left: 10px;
+}
+
+.span-total {
+  padding-left: 30px;
+}
+
+.span-amount {
+  padding-left: 130px;
+}
+
+.span-discount {
+  padding-left: 128px;
+}
+
+.cart-total button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-left: 40px;
+}
+
+.cart-total button:hover {
+  background-color: #0056b3;
+}
+
+.BUTTONSALL {
+  text-align: center;
+}
+.cart-items {
+  margin-right: 320px;
+  flex: 1;
+  overflow-y: auto;
+  display: grid;
+  grid-template-rows: repeat(4, auto);
+  padding: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  border-radius: 5px;
+}
+
+.cart-item {
+  display: flex;
+  background-color: antiquewhite;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+  border-radius: 8px;
+  border: 1px solid rgb(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+.cart-item img {
+  max-width: 100px;
+  margin-right: 20px;
+}
+.cart-item p {
+  font-weight: bold;
+}
+
+.item-details {
+  flex: 1;
+}
+
+.cart-buttons {
+  display: flex;
+  align-items: center;
+  margin-left: 45px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.cart-buttons button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 3px 10px;
+  cursor: pointer;
+  margin: 0 5px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.cart-buttons button:hover {
+  background-color: #0056b3;
+}
+
+.button-checkout {
+  margin-left: 30px;
+}
+
+.button-checkout-link {
+  color: white;
+  text-decoration: none;
+}
+.billing {
+  text-align: center;
+}
+
+.button-checkout {
+  margin: 20px;
+}
+.Button-clear {
+  margin: 20px;
+}

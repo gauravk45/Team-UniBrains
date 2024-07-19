@@ -1,0 +1,33 @@
+.container-product {
+  margin-top: 10px;
+  text-align: center;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+.container-product {
+  padding: 20px;
+}
+
+.products-grid {
+  display: flex;
+  justify-content: center;
+}
+
+.fetch-product-card {
+  transition: transform 0.2s;
+  margin-top: 20px;
+  height: 55vh;
+}
+
+.fetch-product-card:hover {
+  transform: scale(1.05);
+}
+
+.fetch-product-image {
+  height: 200px;
+}
+.loading-skeleton {
+  margin-top: 20px;
+  height: 55vh;
+}
