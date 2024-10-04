@@ -1,6 +1,6 @@
 import React from "react";
 import { TextField, Grid } from "@mui/material";
-import "./CSS/info.css";
+import "../CSS/info.css";
 
 const AddressInfoForm = () => {
   return (

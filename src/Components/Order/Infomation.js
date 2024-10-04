@@ -9,7 +9,7 @@ import Typography from "@mui/material/Typography";
 import PersonalInfoForm from "./personalInfo";
 import AddressInfoForm from "./AddressInfo";
 import PaymentMethodForm from "./PaymentInfo";
-import "./CSS/info.css";
+import "../CSS/info.css";
 
 const steps = ["Personal Information", "Address Information", "Payment Method"];
 
